@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block nav_title %}
+	<li class="active"><a href="/">Home</a></li>
+{% endblock nav_title %}
+{% block content %}
+	<img src="{{url_for('static', filename='generated_image.png')}}" alt= "not generated" width=512px height=512px>
+	<form method="POST" action="{{url_for('generate_image')}}">
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<input type = "submit" value = "generate new anime face">
+{% endblock content %}

@@ -1,0 +1,43 @@
+.container input:hover {
+    background: #ffb6c1;
+    cursor : pointer;
+}
+.container input{
+    border : none;
+    padding: 15px 30px;
+    color : black;
+    background:none;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.1s;
+}
+body{
+    text-align: center;
+}
+.container-fluid  ul{
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0;
+  white-space: nowrap; 
+}
+
+li{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial;
+    text-decoration-color: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    background: #ffb6c1;
+    cursor: pointer;
+}
